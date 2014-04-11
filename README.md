@@ -23,14 +23,14 @@ with the ``--os-username``, ``--os-password`` and  ``--os-tenant-name``
 params, but it's easier to just set them as environment variables::
 
     export OS_USERNAME=user
-    export OS_PASSWORD=yadayada
+    export OS_PASSWORD=<API TOKEN>
     export OS_TENANT_NAME=123456
 
 You will also need to define the authentication url with ``--nova-url``.  
 And explictly state you are using the Rackspace Auth system.  
 Or set them as an environment variables as well::
 
-    export OS_AUTH_URL=http://auth.api.rackspacecloud.com/v2.0/
+    export OS_AUTH_URL=https://identity.api.rackspacecloud.com/v2.0/
     export NOVA_RAX_AUTH=1
 
 You'll find the complete documentation on the shell by running ``rackdns help``::
