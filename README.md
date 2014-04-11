@@ -23,7 +23,7 @@ with the ``--os-username``, ``--os-password`` and  ``--os-tenant-name``
 params, but it's easier to just set them as environment variables::
 
     export OS_USERNAME=user
-    export OS_PASSWORD=<API TOKEN>
+    export OS_PASSWORD=<API KEY>
     export OS_TENANT_NAME=123456
 
 You will also need to define the authentication url with ``--nova-url``.  
